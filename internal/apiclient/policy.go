@@ -4,6 +4,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
+	"os"
 	"sort"
 	"strings"
 	"sync"
@@ -55,10 +56,18 @@ func (c *PolicyAPIClient) UploadPolicyData(project *schema.Project, rds, pastRds
 
 	err := c.fetchAllowList()
 	if err != nil {
+		panic(err)
 		return err
 	}
 
 	filteredResources := c.filterResources(rds)
+
+	if os.Getenv("LIAM_P2R_DUMP") != "" {
+		data, _ := json.MarshalIndent(filteredResources, "", "  ")
+		os.WriteFile("cli_p2r.json", data, 0644)
+		os.Exit(0)
+	}
+
 	if len(filteredResources) > 0 {
 		sha, err := c.uploadProjectPolicyData(filteredResources)
 		if err != nil {
