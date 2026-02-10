@@ -40,18 +40,3 @@ Infracost supports over **1,100** Terraform resources across [AWS](https://www.i
 
 Infracost can also estimate [usage-based resources](https://www.infracost.io/docs/usage_based_resources) such as AWS S3 or Lambda!
 
-## Community and contributing
-
-Join our [community Slack channel](https://www.infracost.io/community-chat) to learn more about cost estimation, Infracost, and to connect with other users and contributors. Checkout the [pinned issues](https://github.com/infracost/infracost/issues) for our next community call or [our YouTube](https://www.youtube.com/playlist?list=PLZHI9QofNPJQS9Hz0P5zfsl0AC03llbMY) for previous calls.
-
-We ❤️ contributions big or small. For development details, see the [contributing](CONTRIBUTING.md) guide. For major changes, including CLI interface changes, please open an issue first to discuss what you would like to change.
-
-Thanks to all the people who have contributed, including bug reports, code, feedback and suggestions!
-
-<a href="https://github.com/infracost/infracost/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=infracost/infracost" />
-</a>
-
-## License
-
-[Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
