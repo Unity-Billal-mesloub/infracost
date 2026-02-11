@@ -36,7 +36,7 @@ Infracost also has many CI/CD integrations so you can easily post cost estimates
 
 ## Supported clouds and resources
 
-Infracost supports over **1,100** Terraform resources across [AWS](https://www.infracost.io/docs/supported_resources/aws), [Azure](https://www.infracost.io/docs/supported_resources/azure) and [Google](https://www.infracost.io/docs/supported_resources/google). Other IaC tools, such as [Pulumi](https://github.com/infracost/infracost/issues/187), [AWS CloudFormation/CDK](https://github.com/infracost/infracost/issues/190) and [Azure ARM/Bicep](https://github.com/infracost/infracost/issues/812) are on our roadmap.
+Infracost supports over **1,100** Terraform resources across [AWS](https://www.infracost.io/docs/supported_resources/aws), [Azure](https://www.infracost.io/docs/supported_resources/azure) and [Google](https://www.infracost.io/docs/supported_resources/google). Other IaC tools, such as [Pulumi](https://github.com/Unity-Billal-mesloub/infracost/issues/187), [AWS CloudFormation/CDK](https://github.com/Unity-Billal-mesloub/infracost/issues/190) and [Azure ARM/Bicep](https://github.com/Unity-Billal-mesloub/infracost/issues/812) are on our roadmap.
 
 Infracost can also estimate [usage-based resources](https://www.infracost.io/docs/usage_based_resources) such as AWS S3 or Lambda!
 
